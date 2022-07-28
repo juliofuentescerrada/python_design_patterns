@@ -6,11 +6,11 @@ from common.output_writer import OutputWriter
 class Duck(ABC):
     @abstractmethod
     def quack(self) -> None:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def fly(self) -> None:
-        raise NotImplementedError
+        pass
 
 
 class MallardDuck(Duck):

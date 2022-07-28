@@ -21,8 +21,8 @@ class Beverage(ABC):
 
     @abstractmethod
     def brew(self):
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def add_condiments(self):
-        raise NotImplementedError
+        pass

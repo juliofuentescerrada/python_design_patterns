@@ -16,7 +16,7 @@ class Pizza(ABC):
 
     @abstractmethod
     def prepare(self) -> None:
-        raise NotImplementedError
+        pass
 
     def bake(self) -> None:
         self.output.write('Bake for 25 minutes at 350')

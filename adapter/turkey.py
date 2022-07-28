@@ -6,11 +6,11 @@ from common.output_writer import OutputWriter
 class Turkey(ABC):
     @abstractmethod
     def gobble(self) -> None:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def fly(self) -> None:
-        raise NotImplementedError
+        pass
 
 
 class WildTurkey(Turkey):

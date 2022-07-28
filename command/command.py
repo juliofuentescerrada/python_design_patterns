@@ -4,8 +4,8 @@ from abc import ABC, abstractmethod
 class Command(ABC):
     @abstractmethod
     def execute(self):
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def undo(self):
-        raise NotImplementedError
+        pass

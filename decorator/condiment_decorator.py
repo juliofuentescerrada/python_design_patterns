@@ -6,4 +6,4 @@ class CondimentDecorator(Beverage, ABC):
 
     @abstractmethod
     def get_description(self) -> str:
-        raise NotImplementedError
+        pass

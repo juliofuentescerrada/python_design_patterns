@@ -11,24 +11,24 @@ from factory.ingredients.veggie import Veggie
 class IngredientFactory(ABC):
     @abstractmethod
     def create_dough(self) -> Dough:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def create_sauce(self) -> Sauce:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def create_cheese(self) -> Cheese:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def create_pepperoni(self) -> Pepperoni:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def create_veggies(self) -> Veggie:
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def create_clam(self) -> Clam:
-        raise NotImplementedError
+        pass

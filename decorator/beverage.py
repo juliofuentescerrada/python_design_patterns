@@ -9,4 +9,4 @@ class Beverage(ABC):
 
     @abstractmethod
     def cost(self) -> float:
-        raise NotImplementedError
+        pass
