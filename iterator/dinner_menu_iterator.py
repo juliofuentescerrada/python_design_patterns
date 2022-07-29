@@ -11,7 +11,10 @@ class DinnerMenuIterator(Iterator):
         self.items = items
 
     def has_next(self):
-        return self.position >= self.items.count() or self.items[self.position] is None
+        if self.position >= len(self.items) or self.items[self.position] is None:
+            return False
+        else:
+            return True
 
     def next(self):
         item = self.items[self.position]

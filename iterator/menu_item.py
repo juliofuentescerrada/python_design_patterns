@@ -1,2 +1,10 @@
+from dataclasses import dataclass
+
+
+@dataclass
 class MenuItem:
-    pass
+    name: str
+    description: str
+    price: float
+
+
